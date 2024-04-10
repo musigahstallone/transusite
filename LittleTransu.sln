@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34707.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LittleTransu", "LittleTransu\LittleTransu.csproj", "{5D8C605E-CD4E-4ED2-B06B-F4D815DACCBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LittleTransu.Client", "LittleTransu.Client\LittleTransu.Client.csproj", "{BD028F4F-1DDA-49A2-8195-418AE843A1B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D8C605E-CD4E-4ED2-B06B-F4D815DACCBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D8C605E-CD4E-4ED2-B06B-F4D815DACCBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D8C605E-CD4E-4ED2-B06B-F4D815DACCBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D8C605E-CD4E-4ED2-B06B-F4D815DACCBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD028F4F-1DDA-49A2-8195-418AE843A1B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD028F4F-1DDA-49A2-8195-418AE843A1B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD028F4F-1DDA-49A2-8195-418AE843A1B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD028F4F-1DDA-49A2-8195-418AE843A1B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF9D77DC-3F06-484C-A867-763FE2300C4D}
+	EndGlobalSection
+EndGlobal
