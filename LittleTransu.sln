@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34707.107
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LittleTransu", "LittleTransu\LittleTransu.csproj", "{5D8C605E-CD4E-4ED2-B06B-F4D815DACCBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LittleTransu", "LittleTransu\LittleTransu.csproj", "{5D8C605E-CD4E-4ED2-B06B-F4D815DACCBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LittleTransu.Client", "LittleTransu.Client\LittleTransu.Client.csproj", "{BD028F4F-1DDA-49A2-8195-418AE843A1B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LittleTransu.Client", "LittleTransu.Client\LittleTransu.Client.csproj", "{BD028F4F-1DDA-49A2-8195-418AE843A1B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BA2E7EAE-0807-4209-BEFC-3BACDC08054D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +26,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5D8C605E-CD4E-4ED2-B06B-F4D815DACCBA} = {BA2E7EAE-0807-4209-BEFC-3BACDC08054D}
+		{BD028F4F-1DDA-49A2-8195-418AE843A1B4} = {BA2E7EAE-0807-4209-BEFC-3BACDC08054D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EF9D77DC-3F06-484C-A867-763FE2300C4D}
